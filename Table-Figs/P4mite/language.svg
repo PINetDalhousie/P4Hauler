@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.308647mm"
+   height="11.964437mm"
+   viewBox="0 0 15.308647 11.964436"
+   version="1.1"
+   id="svg593"
+   sodipodi:docname="language.svg"
+   inkscape:version="1.2 (1:1.2+202206011327+fc4e4096c5)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview595"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="-15.379572"
+     inkscape:cy="-6.629126"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs590" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.967194,-93.885984)">
+    <text
+       xml:space="preserve"
+       style="font-size:0.81139px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:0.752941;stroke:#000000;stroke-width:0.0750001;stroke-opacity:0.752941"
+       x="32.967194"
+       y="93.488213"
+       id="text768"><tspan
+         sodipodi:role="line"
+         id="tspan766"
+         x="32.967194"
+         y="93.488213"
+         style="fill:#000000;fill-opacity:0.752941;stroke:none;stroke-width:0.075" /><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="94.502449"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan770">cli     <tspan
+   style="font-style:normal"
+   id="tspan9956"> ::=</tspan> <tspan
+   style="font-style:normal"
+   id="tspan9952">Define </tspan><tspan
+   style="font-style:normal;font-weight:bold"
+   id="tspan6242">name</tspan> : com </tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="95.516685"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan772">                 <tspan
+   style="font-style:normal"
+   id="tspan9960"> | Remove  </tspan><tspan
+   style="font-style:normal;font-weight:bold"
+   id="tspan6244">name </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="96.530922"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan774">                 <tspan
+   style="font-style:normal"
+   id="tspan9962"> | Change </tspan><tspan
+   style="font-style:normal;font-weight:bold"
+   id="tspan6246">name</tspan><tspan
+   style="font-style:normal"
+   id="tspan9964"> </tspan>app</tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="97.545166"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan776">                  <tspan
+   style="font-style:normal"
+   id="tspan9966">| Change </tspan><tspan
+   style="font-style:normal;font-weight:bold"
+   id="tspan6248">name</tspan> res</tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="98.559402"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan11817">com<tspan
+   style="font-style:normal"
+   id="tspan10017">   ::= for</tspan> app <tspan
+   style="font-style:normal"
+   id="tspan10021">using </tspan>lb</tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="99.573639"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan11798">lb       ::= 'least utilized' set</tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="100.58788"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan11828">                  <tspan
+   style="font-style:normal"
+   id="tspan10749">|  round robin [</tspan> wgt <tspan
+   style="font-style:normal"
+   id="tspan10753">]</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="101.60211"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan11832">wgt    <tspan
+   style="font-style:normal"
+   id="tspan10755">::= parameters</tspan>  </tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="102.61635"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan780">app    ::= <tspan
+   style="font-weight:bold;font-style:normal"
+   id="tspan6252">appID</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="103.63058"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan786">set     <tspan
+   style="font-style:normal"
+   id="tspan10761">::=</tspan> set resource <tspan
+   style="font-style:normal"
+   id="tspan10759">[</tspan>set<tspan
+   style="font-style:normal"
+   id="tspan10757">]</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="104.64482"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan18426">res     <tspan
+   style="font-style:normal"
+   id="tspan10763">::=</tspan>  <tspan
+   style="font-weight:bold;font-style:normal"
+   id="tspan6254">resID </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="105.65907"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan1837">                  <tspan
+   style="font-style:normal"
+   id="tspan10765">| <tspan
+   style="font-style:italic"
+   id="tspan10767">res</tspan> ,</tspan> <tspan
+   style="font-style:normal;font-weight:bold"
+   id="tspan10791">resID</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="32.967194"
+         y="106.6733"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#010101;fill-opacity:0.976659;stroke:none;stroke-width:0.075"
+         id="tspan788" /></text>
+  </g>
+</svg>

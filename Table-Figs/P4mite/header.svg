@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.008484mm"
+   height="8.9627256mm"
+   viewBox="0 0 36.008483 8.9627261"
+   version="1.1"
+   id="svg26284"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="header.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview26286"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.0000002"
+     inkscape:cx="60.624998"
+     inkscape:cy="21.437499"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs26281">
+    <symbol
+       id="RoundedBalloon"
+       style="stroke-linejoin:miter;stroke-miterlimit:10">
+      <title
+         id="title32295">Rounded Balloon</title>
+      <rect
+         x="80"
+         y="65"
+         width="250"
+         height="120"
+         rx="32"
+         style="stroke:none"
+         id="rect32297" />
+      <path
+         d="m 124,179 -30,53 78,-53"
+         style="stroke:none"
+         id="path32299" />
+      <rect
+         x="75"
+         y="60"
+         width="250"
+         height="120"
+         rx="30"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="rect32301" />
+      <path
+         d="m 120,175 -30,53 78,-53"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="path32303" />
+      <rect
+         x="80"
+         y="65"
+         width="235"
+         height="105"
+         rx="25"
+         style="fill:#ffffff;stroke:none"
+         id="rect32305" />
+      <path
+         d="m 132,160 -30,53 78,-53"
+         style="fill:#ffffff;stroke:none"
+         id="path32307" />
+    </symbol>
+    <symbol
+       id="SquaredBalloon"
+       style="stroke-linejoin:miter;stroke-miterlimit:10">
+      <title
+         id="title32310">Squared Balloon</title>
+      <rect
+         x="80"
+         y="65"
+         width="250"
+         height="140"
+         rx="17"
+         style="stroke:none"
+         id="rect32312" />
+      <path
+         d="m 126,199 25,43 30,-43"
+         style="stroke:none"
+         id="path32314" />
+      <rect
+         x="75"
+         y="60"
+         width="250"
+         height="140"
+         rx="15"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="rect32316" />
+      <path
+         d="m 120,195 25,43 30,-43"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="path32318" />
+      <rect
+         x="80"
+         y="65"
+         width="235"
+         height="125"
+         rx="10"
+         style="fill:#ffffff;stroke:none"
+         id="rect32320" />
+      <path
+         d="m 118,180 25,43 30,-43"
+         style="fill:#ffffff;stroke:none"
+         id="path32322" />
+    </symbol>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-79.992188,-119.06528)">
+    <rect
+       style="opacity:0.99;fill:#fffffb;fill-opacity:1;stroke:none;stroke-width:0.157228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26819"
+       width="36.008484"
+       height="8.9627256"
+       x="79.992188"
+       y="119.06528"
+       ry="9.3597897e-08" />
+    <g
+       id="g26624"
+       transform="matrix(0.6298218,0,0,0.29019269,65.346238,96.47943)"
+       style="stroke-width:0.186779;stroke-dasharray:none">
+      <rect
+         y="85.399101"
+         x="24.514215"
+         height="5.51969"
+         width="55.05938"
+         id="rect25788"
+         style="opacity:0.99;fill:#474343;fill-opacity:0.654902;stroke:#000000;stroke-width:0.168947;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         rx="0"
+         ry="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path26616-1"
+         d="m 34.972408,85.441711 v 5.470794"
+         style="fill:none;stroke:#000000;stroke-width:0.186779;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="opacity:0.99;fill:#bab5b5;fill-opacity:0.807843;stroke:#000000;stroke-width:0.186779;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 34.972442,88.144043 v -2.702302 h 22.262582 22.26258 v 2.702302 2.702295 H 57.235024 34.972442 Z"
+         id="path26678"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path26616-2"
+         d="m 47.314372,85.424234 v 5.451622"
+         style="fill:none;stroke:#000000;stroke-width:0.186779;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path26616-2-8"
+         d="m 57.628458,85.402736 v 5.509761"
+         style="fill:none;stroke:#000000;stroke-width:0.186779;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path26616-2-7"
+         d="m 68.923497,85.440813 v 5.451622"
+         style="fill:none;stroke:#000000;stroke-width:0.186779;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.212262"
+       x="83.011322"
+       y="122.46727"
+       id="text26620"><tspan
+         sodipodi:role="line"
+         id="tspan26618"
+         x="83.011322"
+         y="122.46727"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:0.212262">ETH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.212262"
+       x="90.610992"
+       y="122.40112"
+       id="text26620-4-4-0"><tspan
+         sodipodi:role="line"
+         id="tspan26618-3-9-6"
+         x="90.610992"
+         y="122.40112"
+         style="font-weight:normal;font-size:1.05833px;fill:#ffffff;fill-opacity:1;stroke-width:0.212262">DID</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.212262"
+       x="103.89706"
+       y="122.4342"
+       id="text26620-4-4-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan26618-3-9-6-2"
+         x="103.89706"
+         y="122.4342"
+         style="font-weight:normal;font-size:1.05833px;fill:#ffffff;fill-opacity:1;stroke-width:0.212262">MEM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.212262"
+       x="111.12824"
+       y="122.4342"
+       id="text26620-4-4-0-9-1"><tspan
+         sodipodi:role="line"
+         id="tspan26618-3-9-6-2-4"
+         x="111.12824"
+         y="122.4342"
+         style="font-weight:normal;font-size:1.05833px;fill:#ffffff;fill-opacity:1;stroke-width:0.212262">NET</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.212262"
+       x="97.161392"
+       y="122.46727"
+       id="text26620-4-4-0-9-4"><tspan
+         sodipodi:role="line"
+         id="tspan26618-3-9-6-2-3"
+         x="97.161392"
+         y="122.46727"
+         style="font-weight:normal;font-size:1.05833px;fill:#ffffff;fill-opacity:1;stroke-width:0.212262">CMP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.212262"
+       x="97.189888"
+       y="120.65393"
+       id="text26791"><tspan
+         sodipodi:role="line"
+         id="tspan26789"
+         x="97.189888"
+         y="120.65393"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.212262">P4Hauler Agent header</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.05833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.212262"
+       x="80.856682"
+       y="125.22755"
+       id="text26791-9"><tspan
+         sodipodi:role="line"
+         id="tspan26789-2"
+         x="80.856682"
+         y="125.22755"
+         style="font-weight:normal;font-size:1.05833px;stroke-width:0.212262">L2 Forwarding</tspan></text>
+    <use
+       xlink:href="#SquaredBalloon"
+       style="fill:none;stroke:#000000"
+       id="use32672"
+       transform="matrix(0.03461841,0,0,-0.02479782,86.999402,129.21453)" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.30986px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:0.654902;stroke:none;stroke-width:0.07426;stroke-dasharray:none;stroke-opacity:1"
+       x="90.446106"
+       y="125.57468"
+       id="text31227"><tspan
+         id="tspan31225"
+         style="font-size:1.30986px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07426"
+         x="90.446106"
+         y="125.57468"
+         sodipodi:role="line">GPU, NIC,</tspan><tspan
+         style="font-size:1.30986px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07426"
+         x="90.446106"
+         y="127.212"
+         sodipodi:role="line"
+         id="tspan31535">CPU, etc.</tspan></text>
+  </g>
+</svg>

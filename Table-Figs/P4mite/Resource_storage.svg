@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="61.21307mm"
+   height="44.414757mm"
+   viewBox="0 0 61.21307 44.414756"
+   version="1.1"
+   id="svg42039"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Resource_storage.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42041"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1417559"
+     inkscape:cx="87.778444"
+     inkscape:cy="56.729154"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs42036" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.187607,-63.65868)">
+    <rect
+       style="opacity:0.99;fill:#fffffb;fill-opacity:1;stroke:none;stroke-width:0.456349;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26819"
+       width="61.21307"
+       height="44.414757"
+       x="46.408485"
+       y="63.810989"
+       ry="4.6382408e-07" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#454b44;stroke:#454b45;stroke-width:0.502999"
+       x="53.258186"
+       y="69.593109"
+       id="text2154-0"><tspan
+         sodipodi:role="line"
+         id="tspan2152-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.503"
+         x="53.258186"
+         y="69.593109">Device 0</tspan></text>
+    <rect
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#000000;stroke-width:0.182;stroke-dasharray:none"
+       id="rect38874-4"
+       width="33.402031"
+       height="3.2873015"
+       x="71.124397"
+       y="65.426674"
+       ry="3.2570309e-08" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#454b44;stroke:#454b45;stroke-width:0.502999"
+       x="87.689667"
+       y="67.779793"
+       id="text2154-4-9"><tspan
+         sodipodi:role="line"
+         id="tspan2152-7-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.503"
+         x="87.689667"
+         y="67.779793">Server ID, Resource</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.182;stroke-dasharray:none"
+       id="rect38874"
+       width="11.110964"
+       height="3.1474464"
+       x="59.37336"
+       y="65.486694"
+       ry="3.1184634e-08" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:monospace;-inkscape-font-specification:monospace;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396;stroke-dasharray:none"
+       x="60.949001"
+       y="67.797707"
+       id="text38910"><tspan
+         sodipodi:role="line"
+         id="tspan38908"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.396;stroke-dasharray:none;stroke-opacity:1"
+         x="60.949001"
+         y="67.797707">Register</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#454b44;stroke:#454b45;stroke-width:0.502999"
+       x="88.349014"
+       y="71.373245"
+       id="text2154-4-9-6"><tspan
+         sodipodi:role="line"
+         id="tspan2152-7-5-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.503"
+         x="88.349014"
+         y="71.373245">Update_device_status</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.182;stroke-dasharray:none"
+       id="rect38874-0"
+       width="11.110964"
+       height="3.1474464"
+       x="59.387966"
+       y="69.20343"
+       ry="3.1184634e-08" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.190698;stroke-dasharray:none"
+       id="rect38874-4-6"
+       width="33.402031"
+       height="3.2873015"
+       x="71.139"
+       y="69.143402"
+       ry="3.2570309e-08" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:monospace;-inkscape-font-specification:monospace;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396;stroke-dasharray:none"
+       x="61.778328"
+       y="71.392929"
+       id="text38910-1"><tspan
+         sodipodi:role="line"
+         id="tspan38908-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.396;stroke-dasharray:none;stroke-opacity:1"
+         x="61.778328"
+         y="71.392929">Action</tspan></text>
+    <rect
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#000000;stroke-width:0.182;stroke-dasharray:none"
+       id="rect38874-4-3"
+       width="33.402031"
+       height="3.2873015"
+       x="71.151215"
+       y="75.683876"
+       ry="3.2570309e-08" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#454b44;stroke:#454b45;stroke-width:0.502999"
+       x="87.716484"
+       y="78.036995"
+       id="text2154-4-9-67"><tspan
+         sodipodi:role="line"
+         id="tspan2152-7-5-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.503"
+         x="87.716484"
+         y="78.036995">Server ID, Resource</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.182;stroke-dasharray:none"
+       id="rect38874-3"
+       width="11.110964"
+       height="3.1474464"
+       x="59.400181"
+       y="75.743896"
+       ry="3.1184634e-08" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:monospace;-inkscape-font-specification:monospace;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396;stroke-dasharray:none"
+       x="60.728752"
+       y="78.054909"
+       id="text38910-5"><tspan
+         sodipodi:role="line"
+         id="tspan38908-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.396;stroke-dasharray:none;stroke-opacity:1"
+         x="60.728752"
+         y="78.054909">Register</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#454b44;stroke:#454b45;stroke-width:0.502999"
+       x="88.375832"
+       y="81.630447"
+       id="text2154-4-9-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan2152-7-5-1-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.503"
+         x="88.375832"
+         y="81.630447">Update_device_status</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.182;stroke-dasharray:none"
+       id="rect38874-0-1"
+       width="11.110964"
+       height="3.1474464"
+       x="59.414787"
+       y="79.460632"
+       ry="3.1184634e-08" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.190698;stroke-dasharray:none"
+       id="rect38874-4-6-2"
+       width="33.402031"
+       height="3.2873015"
+       x="71.165817"
+       y="79.400604"
+       ry="3.2570309e-08" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:monospace;-inkscape-font-specification:monospace;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396;stroke-dasharray:none"
+       x="61.805149"
+       y="81.650131"
+       id="text38910-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan38908-5-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.396;stroke-dasharray:none;stroke-opacity:1"
+         x="61.805149"
+         y="81.650131">Action</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#454b44;stroke:#454b45;stroke-width:0.502999"
+       x="53.13113"
+       y="80.108635"
+       id="text2154-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan2152-4-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.503"
+         x="53.13113"
+         y="80.108635">Device 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.450001;stroke-dasharray:none;stroke-opacity:1"
+       x="112.41391"
+       y="69.468513"
+       id="text73290"><tspan
+         sodipodi:role="line"
+         id="tspan73288"
+         style="stroke-width:0.45"
+         x="112.41391"
+         y="69.468513" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.191667;stroke-dasharray:none"
+       id="rect38874-4-10"
+       width="54.982468"
+       height="19.669386"
+       x="49.47541"
+       y="85.700119"
+       ry="1.9488267e-07" />
+    <g
+       id="g77165">
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.450001;stroke-dasharray:none;stroke-opacity:1"
+         x="52.389599"
+         y="88.204575"
+         id="text73222"><tspan
+           sodipodi:role="line"
+           id="tspan73220"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45"
+           x="52.389599"
+           y="88.204575">value_0 = update_<tspan
+   style="font-weight:bold"
+   id="tspan26858">device0</tspan>(Server, Res);</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45"
+           x="52.389599"
+           y="90.85041"
+           id="tspan73292">value_1 = update_<tspan
+   style="font-weight:bold"
+   id="tspan26860">device1</tspan>(Server, Res);</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45"
+           x="52.389599"
+           y="93.496246"
+           id="tspan73286" /><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45"
+           x="52.389599"
+           y="96.14209"
+           id="tspan73224">min = min(value_0, value_1);</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45"
+           x="52.389599"
+           y="98.787926"
+           id="tspan73226">if (min == value_0) {</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45"
+           x="52.389599"
+           y="101.43376"
+           id="tspan73230">    <tspan
+   style="font-weight:bold"
+   id="tspan26856">pkt.dest</tspan> = dev0_dest;</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45"
+           x="52.389599"
+           y="104.0796"
+           id="tspan73232">}</tspan></text>
+    </g>
+  </g>
+</svg>
