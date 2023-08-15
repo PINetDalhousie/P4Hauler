@@ -71,10 +71,12 @@ plt.legend(ncol=2, fontsize=12, bbox_to_anchor=(0.05, 0.404, 1,1))
 plt.xlabel('Rate (rps)', font)
 plt.ylabel('P99 Delay (ms)', font)
 plt.subplots_adjust(left = 0.2, right=0.95, bottom=0.17, top=0.77)
-
-if save_or_show == 0:
+print(results["LSU"])
+print((results["Server-Only"][-1] - results["LSU"][-1])/results["Server-Only"][-1])
+# plt.show()
+# if save_or_show == 0:
 	# plt.show()
-	plt.savefig("../ad_p99.pdf")
-else:
-	plt.savefig("../ad_p99.pdf")
+	# plt.savefig("../ad_p99.pdf")
+# else:
+	# plt.savefig("../ad_p99.pdf")
 	# plt.savefig("vgg_p99.pdf", bbox_inches='tight')

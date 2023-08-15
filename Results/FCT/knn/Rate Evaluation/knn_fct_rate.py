@@ -82,4 +82,4 @@ if save_or_show == 0:
 	plt.savefig("../../knn_FCT_rate_evaluation.pdf")
 else:
 	# plt.savefig("vgg_thr.pdf", bbox_inches='tight')
-	plt.savefig("knn_FCT_rate_evaluation.pdf")
+	plt.savefig("../../knn_FCT_rate_evaluation.pdf")

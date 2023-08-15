@@ -66,7 +66,7 @@ ax1.legend([bp1["boxes"][0], bp2["boxes"][0], bp3["boxes"][0], bp4["boxes"][0]],
 labels = ["Server-Only", "LSU", "PRT", "WRR"]
 plt.xticks(np.arange(1,5, 1), labels, fontsize=11)
 plt.subplots_adjust(left = 0.11, right=0.97, bottom=0.16, top=0.82)
-plt.savefig("load_dist.pdf")
+# plt.savefig("load_dist.pdf")
 
 plt.show()
 

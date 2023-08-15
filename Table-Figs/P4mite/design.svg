@@ -7,8 +7,11 @@
    viewBox="0 0 107.63066 53.551227"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
    sodipodi:docname="design.svg"
+   inkscape:export-filename="../design.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,14 +27,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.2072683"
-     inkscape:cx="274.5475"
-     inkscape:cy="62.747243"
+     inkscape:zoom="2.95"
+     inkscape:cx="211.01695"
+     inkscape:cy="90.847458"
      inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs2">
@@ -204,8 +207,25 @@
        id="rect6810-3-5-1-2-1-1"
        width="107.63065"
        height="51.63332"
-       x="50.899002"
-       y="88.336388" />
+       x="51.625076"
+       y="89.207672" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50144;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2134"
+       cx="130.25879"
+       cy="91.857651"
+       r="1.3501621" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.35472px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.501441;stroke-dasharray:none;stroke-dashoffset:0"
+       x="130.15741"
+       y="92.577805"
+       id="text2138"><tspan
+         id="tspan2136"
+         style="font-style:italic;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.50144;stroke-opacity:1"
+         x="130.15741"
+         y="92.577805"
+         sodipodi:role="line">3</tspan></text>
     <rect
        style="fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:0.210569;stroke-opacity:1"
        id="rect606"
@@ -688,23 +708,6 @@
          y="108.55329" /></text>
     <circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50144;stroke-dasharray:none;stroke-dashoffset:0"
-       id="path2134"
-       cx="143.29994"
-       cy="110.57291"
-       r="1.3501621" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.35472px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.501441;stroke-dasharray:none;stroke-dashoffset:0"
-       x="143.26544"
-       y="111.43179"
-       id="text2138"><tspan
-         sodipodi:role="line"
-         id="tspan2136"
-         style="font-style:italic;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.50144;stroke-opacity:1"
-         x="143.26544"
-         y="111.43179">1</tspan></text>
-    <circle
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50144;stroke-dasharray:none;stroke-dashoffset:0"
        id="path2134-8"
        cx="117.42635"
        cy="135.52383"
@@ -719,7 +722,7 @@
          id="tspan2136-87"
          style="font-style:italic;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.50144;stroke-opacity:1"
          x="117.39186"
-         y="136.38272">3</tspan></text>
+         y="136.38272">2</tspan></text>
     <circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.50144;stroke-dasharray:none;stroke-dashoffset:0"
        id="path2134-5"
@@ -736,6 +739,6 @@
          id="tspan2136-8"
          style="font-style:italic;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.50144;stroke-opacity:1"
          x="73.160164"
-         y="114.32681">2</tspan></text>
+         y="114.32681">1</tspan></text>
   </g>
 </svg>

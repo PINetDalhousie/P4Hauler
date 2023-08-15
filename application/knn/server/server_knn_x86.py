@@ -69,7 +69,7 @@ class UDPServerMultiClient(udp_server.UDPServer):
 	def handle_request(self, data, client_address):
 		''' Handle the client '''
 		# handle request
-		client_address = ("10.50.1.1",client_address[1])
+		#client_address = ("10.50.1.1",client_address[1])
 		global average_lat
 		start = time.time()
 		self.printwt('[ REQUEST from ' + str(client_address) + ' ]')

@@ -55,7 +55,7 @@ There are 5 ones in the applications folder:
 The agent monitoring server and measure latency using tcpdump
 ```bash
 cd applications
-sudo tcpdump --immediate-mode -n -i <INTERFACE_NAME> | sudo python3 p4mite_agent.py <SERVER_ADDR> <ACCELERATE_ADDR> <THRESHOLD>
+sudo python3 p4mite_agent.py --interface enp101s0f1 --id 1 --debug 0 --interval 0.1 -t 99
 ```
 
 2. Microbenchmark: a synthetic workload
