@@ -7,9 +7,9 @@ _server_cap = 16
 _accele_cap = 4
 
 _server_threshhold = 90
-_accele_threshhold = 95
+_accele_threshhold = 90
 
-_server_lat = 300
+_server_lat = 200
 _accele_lat = 1000
 
 
@@ -41,7 +41,7 @@ def baseline(_rate, _servers, _accelerators):
 
 	for i in range(0,len(_lats), _accelerators+1):
 		if _util[i] < _server_threshhold:
-			_lats[i] = np.random.normal(_server_lat,0.1*_server_lat)
+			_lats[i] = _server_lat + np.random.normal(_server_lat*_util[i]/100)
 		else:
 			_lats[i] = _load[i] * np.random.normal(350, 35) - np.random.normal(3500, 350)
 
@@ -70,14 +70,16 @@ def lsu(_rate, _servers, _accelerators):
 	for i in range(len(_lats)):
 		if i%(_accelerators+1)==0:
 			if _util[i] < 100:
-				_lats[i] = np.random.normal(_server_lat,0.1*_server_lat)
+				_lats[i] = _server_lat + np.random.normal(_server_lat*_util[i]/100)
 			else:
-				_lats[i] = _load[i] * np.random.normal(350, 35) - np.random.normal(3500, 350)
+				_lats[i] = _load[i] * _server_lat + np.random.normal(_server_lat*_util[i]/100)
+				# _lats[i] = _load[i] * np.random.normal(350, 35) - np.random.normal(3500, 350)
 		elif _util[i] != 0:
-			if _util[i] < 100:
-				_lats[i] = np.random.normal(_accele_lat,0.1*_accele_lat)
+			if _util[i] < 80:
+				_lats[i] = _accele_lat + np.random.normal(_accele_lat*_util[i]/100)
 			else:
-				_lats[i] =  _load[i] * np.random.normal(400, 40) + np.random.normal(1200, 120)
+				_lats[i] = _load[i] *_accele_lat + np.random.normal(_accele_lat*_util[i]/400)
+				# _lats[i] =  _load[i] * np.random.normal(400, 40) + np.random.normal(1200, 120)
 
 	return _load, _util, _lats
 

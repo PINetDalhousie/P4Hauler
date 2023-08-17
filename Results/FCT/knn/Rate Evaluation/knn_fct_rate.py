@@ -39,8 +39,8 @@ def read_data(r_type):
 
 
 results = read_data(RESULTS_TYPE)
-for r in results:
-	print(r,results[r])
+# for r in results:
+# 	print(r,results[r])
 
 plt.figure(figsize=(3,3))
 plt.rcParams.update({
@@ -76,10 +76,19 @@ plt.ylabel('Time (s)', font)
 # plt.subplots_adjust(left = 0.18, right=0.97, bottom=0.22, top=0.79)
 plt.subplots_adjust(left = 0.17, right=0.97, bottom=0.16, top=0.97)
 
+for i,j in zip(results["Server-Only"], RATES[0:len(results["Server-Only"])]):
+	print(i, j ,100/i)
+print("*******************")
+
+for i,j in zip(results["WRR"], RATES[0:len(results["Server-Only"])]):
+	print(i, j ,100/i)
+# print(results["Server-Only"])
+# print()
 
 if save_or_show == 0:
-	# plt.show()
-	plt.savefig("../../knn_FCT_rate_evaluation.pdf")
+	plt.show()
+	# plt.savefig("../../knn_FCT_rate_evaluation.pdf")
 else:
+	plt.show()
 	# plt.savefig("vgg_thr.pdf", bbox_inches='tight')
-	plt.savefig("../../knn_FCT_rate_evaluation.pdf")
+	# plt.savefig("../../knn_FCT_rate_evaluation.pdf")

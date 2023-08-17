@@ -18,5 +18,3 @@ for rate in range(1000, 4000, 50):
 	lat /= ITERATION
 	thg /= ITERATION
 	print(rate, np.percentile(lat,99),  thg)
-
-
