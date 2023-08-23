@@ -20,7 +20,7 @@ list_of_policies 	=	["Server-Only", "WRR", "PRT", "LSU"]
 
 RATES	= range(2,21,2)
 
-RESULTS_TYPE = "thg:"
+RESULTS_TYPE = "avg:"
 
 def read_data(r_type):
 	results = {}
@@ -73,9 +73,11 @@ plt.xlabel('Rate (rps)', font)
 plt.ylabel('Throughput (KBps)', font)
 plt.subplots_adjust(left = 0.18, right=0.97, bottom=0.22, top=0.79)
 
+print(results["Server-Only"])
 
 if save_or_show == 0:
 	plt.show()
 else:
+	plt.show()
 	# plt.savefig("vgg_thr.pdf", bbox_inches='tight')
-	plt.savefig("knn_thr.pdf")
+	# plt.savefig("knn_thr.pdf")

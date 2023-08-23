@@ -70,7 +70,7 @@ plt.ylabel('P99 Delay (ms)', font)
 plt.subplots_adjust(left = 0.2, right=0.96, bottom=0.17, top=0.77)
 
 
-print(RATES[0:len(results["LSU"])], results["LSU"])
+print(RATES[0:len(results["WRR"])], results["WRR"])
 if save_or_show == 0:
 	plt.show()
 	# plt.savefig("../knn_p99.pdf")

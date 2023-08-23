@@ -86,7 +86,7 @@ class UDPServerMultiClient(udp_server.UDPServer):
 						if data==b'':
 							f.close()
 							break
-					# self.printwt(f'File from {client_address} has been downloaded!')
+					self.printwt(f'File from {client_address} has been downloaded!')
 					c_thread = threading.Thread(target = self.handle_request,
 					                        args = (data, client_address,recived_f))
 					c_thread.daemon = True
