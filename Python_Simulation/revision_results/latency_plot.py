@@ -60,6 +60,12 @@ ax1.set_xlim(1000,3400)
 # ax1.set_ylim(0, 300)
 
 
+print(lats_64["server"][2:-2])
+print(lats_64["wrr"][2:-2])
+print(lats_64["prt"][2:-2])
+print(lats_64["lsu"][2:-2])
+
+
 labels = ["1.0k", "1.6k", "2.2k", "2.8k", "3.4k"]
 plt.xticks(range(1000,3401,600), labels)
 
@@ -68,7 +74,7 @@ plt.xticks(range(1000,3401,600), labels)
 
 plt.subplots_adjust(left = 0.17, right=0.96, bottom=0.18, top=0.65)
 
-plt.savefig("latency_simulation.pdf")
+# plt.savefig("latency_simulation.pdf")
 
 plt.show()
 
