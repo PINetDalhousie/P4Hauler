@@ -29,7 +29,7 @@ parser.add_argument('-P', '--port',
 					type=int
 					)
 parser.add_argument('-B', '--buffer',
-					default=4098,
+					default=1024,
 					dest='buffer_size',
 					help='The buffer size. Defaults is 1024',
 					type=int
@@ -92,8 +92,8 @@ def send_test(dst_ip, dst_port, X, counter):
 	sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 	result = -1
 	chunks = [X[i:i+BUFFER_SIZE] for i in range(0, len(X), BUFFER_SIZE)]
-	for chunk in chunks:
-		sock.sendto(chunk.encode(),(dst_ip, dst_port))
+	# for chunk in chunks:
+	sock.sendto(chunks[0].encode(),(dst_ip, dst_port))
 	# sock.sendto(x.encode(),(dst_ip, dst_port))
 	input1 = [sock, sys.stdin]
 	while time.time()-start < 30:

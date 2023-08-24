@@ -59,6 +59,9 @@ train_x = np.reshape(train_x, (60000, 28*28))
 neigh = KNeighborsClassifier(n_neighbors=3)
 neigh.fit(train_x, train_y)
 
+x_test = idx2numpy.convert_from_file(test_x_path)
+y_test = idx2numpy.convert_from_file(test_y_path)
+x_test = np.reshape(x_test, (10000,28*28))
 
 class UDPServerMultiClient(udp_server.UDPServer):
 	''' A simple UDP Server for handling multiple clients '''
@@ -75,9 +78,9 @@ class UDPServerMultiClient(udp_server.UDPServer):
 		self.printwt('[ REQUEST from ' + str(client_address) + ' ]')
 		input_data = data.decode()
 		input_data = input_data[1:-1].split()
-		input_array = np.array([int(i) for i in input_data])
-		input_array = input_array.reshape(1,len(input_data))
-		p = neigh.predict(input_array)
+		# input_array = np.array([int(i) for i in input_data])
+		# input_array = input_array.reshape(1,len(input_data))
+		p = neigh.predict(x_test[0].reshape(1, -1))
 		p = p[0]
 		resp = str(16)
 		self.printwt("RESPONSE is " + str(resp))		# send response to the client
@@ -96,11 +99,11 @@ class UDPServerMultiClient(udp_server.UDPServer):
 				try: # receive request from client
 					data, client_address = self.sock.recvfrom(BUFFER_SIZE)
 					self.printwt("New connection!")
-					while True:
-						x, client_address = self.sock.recvfrom(BUFFER_SIZE)
-						data += x
-						if x==b'':
-							break
+					# while True:
+					# 	x, client_address = self.sock.recvfrom(BUFFER_SIZE)
+					# 	data += x
+					# 	if x==b'':
+					# 		break
 					self.printwt("Request has been received!")
 					c_thread = threading.Thread(target = self.handle_request,
 					                        args = (data, client_address))

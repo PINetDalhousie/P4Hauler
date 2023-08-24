@@ -27,7 +27,7 @@ parser.add_argument('-P', '--port',
 					type=int
 					)
 parser.add_argument('-B', '--buffer',
-					default=4096,
+					default=1024,
 					dest='BS',
 					help='The buffer size. Defaults to 1024',
 					type=int
@@ -59,6 +59,9 @@ train_x = np.reshape(train_x, (60000, 28*28))
 neigh = KNeighborsClassifier(n_neighbors=3)
 neigh.fit(train_x, train_y)
 
+x_test = idx2numpy.convert_from_file(test_x_path)
+y_test = idx2numpy.convert_from_file(test_y_path)
+x_test = np.reshape(x_test, (10000,28*28))
 
 class UDPServerMultiClient(udp_server.UDPServer):
 	''' A simple UDP Server for handling multiple clients '''
@@ -76,8 +79,10 @@ class UDPServerMultiClient(udp_server.UDPServer):
 		input_data = data.decode()
 		input_data = input_data[1:-1].split()
 		input_array = np.array([int(i) for i in input_data])
-		input_array = input_array.reshape(1,len(input_data))
-		p = neigh.predict(input_array)
+		# input_array = input_array.reshape(1,len(input_data))
+		# p = neigh.predict(input_array)
+		self.printwt(len(x_test[0]))
+		p = neigh.predict(x_test[0].reshape(1, -1))
 		p = p[0]
 		resp = str(6)
 		self.printwt("RESPONSE is " + str(resp))		# send response to the client
