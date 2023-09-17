@@ -30,7 +30,7 @@ def read_data(r_type):
 
 	for d in list_of_policies:
 		for r in RATES:
-			file = open("./" + d + "/60-" + str(r) + ".log", "r")
+			file = open("./" + d + "/70-" + str(r) + ".log", "r")
 			s = 0
 			for line in file:
 				l = line.strip().split()
@@ -57,7 +57,7 @@ font = {'family' : 'Times New Roman',
 }
 
 plt.plot(RATES[0:len(results["Server-Only"])], results["Server-Only"], marker='o' ,label= "Server-Only", linestyle="solid", color = "blue", mfc="none")  # Plot the chart
-plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LSU", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
+plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LUR", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["PRT"])], results["PRT"], marker='^' ,label= "PRT", linestyle="solid", color = "green", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["WRR"])], results["WRR"], marker='x' ,label= "WRR", linestyle="solid", color = "red", mfc="none")  # Plot the chart
 # plt.yscale("log")
@@ -88,7 +88,7 @@ plt.subplots_adjust(left = 0.17, right=0.94, bottom=0.16, top=0.77)
 
 if save_or_show == 0:
 	# plt.show()
-	plt.savefig("../../vgg_FCT_batch_evaluation_60.pdf")
+	plt.savefig("../../vgg_FCT_batch_evaluation_70.pdf")
 else:
 	# plt.savefig("vgg_thr.pdf", bbox_inches='tight')
-	plt.savefig("vgg_FCT_batch_evaluation_70.pdf")
+	plt.savefig("../../vgg_FCT_batch_evaluation_70.pdf")

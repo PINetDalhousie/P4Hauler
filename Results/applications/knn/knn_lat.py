@@ -50,7 +50,7 @@ font = {'family' : 'Times New Roman',
 }
 
 plt.plot(RATES[0:len(results["Server-Only"])], results["Server-Only"], marker='o' ,label= "Server-Only", linestyle="solid", color = "blue", mfc="none")  # Plot the chart
-plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LSU", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
+plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LUR", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["PRT"])], results["PRT"], marker='^' ,label= "PRT", linestyle="solid", color = "green", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["WRR"])], results["WRR"], marker='x' ,label= "WRR", linestyle="solid", color = "red", mfc="none")  # Plot the chart
 
@@ -72,9 +72,9 @@ plt.subplots_adjust(left = 0.2, right=0.96, bottom=0.17, top=0.77)
 
 print(RATES[0:len(results["WRR"])], results["WRR"])
 if save_or_show == 0:
-	plt.show()
-	# plt.savefig("../knn_p99.pdf")
+	# plt.show()
+	plt.savefig("../knn_p99.pdf")
 else:
-	plt.show()
-	# plt.savefig("../knn_p99.pdf")
+	# plt.show()
+	plt.savefig("../knn_p99.pdf")
 	# plt.savefig("vgg_p99.pdf", bbox_inches='tight')

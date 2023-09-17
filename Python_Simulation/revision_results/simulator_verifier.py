@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 SERVER = 1
 ACCElERATOR = 1
 
-ITERATION = 2
+ITERATION = 3
 # LOAD = SERVER * 20
 
 
@@ -17,7 +17,7 @@ _lats =  {"server": [], "lsu": [], "prt": [], "wrr":[]}
 _lats["server"] = 	[160.9097785949707, 176.5733647346496, 190.77907800674444, 261.7897319793701, 323.2439994812012, 444.1322875022891, 667.3306131362915, 1823.5206699371338]
 _lats["lsu"] 	=  	[975.175528526306, 	1096.211950778961, 1276.4176082611086, 1708.696398735046, 2138.092811107635, 2635.797469615936, 3028.582956790924, 3953.4584832191463, 4426.733348369598, 5958.2252407073975]
 _lats["prt"] 	= 	[186.5355014801025, 181.9323253631591, 188.25536012649536, 250.2061510086059, 335.8019995689391, 653.5560321807963, 1298.826768398285, 2070.9974622726436, 3380.1158261299142, 5283.50367307663]
-_lats["wrr"] 	=  	[830.6218767166138, 836.6247010231018, 1034.9562048912048, 838.1338906288147, 1053.207454681396, 1067.003674507141, 1096.479980945587, 1127.4709725379944, 1141.6498160362244, 2793.5623741149902]
+_lats["wrr"] 	=  	[830.6218767166138, 836.6247010231018, 839.9562048912048, 838.1338906288147, 1053.207454681396, 1067.003674507141, 1096.479980945587, 1127.4709725379944, 1141.6498160362244, 2793.5623741149902]
 
 
 _server_avg = 	[185.80069144566855, 173.93492658933005, 177.36393875545926, 213.98200690746307, 238.9820392926534, 292.66244305504694, 444.61884385063536, 1280.4869264364243]
@@ -74,13 +74,13 @@ ax1.set_ylabel("Throughput (Bps)", font)
 ax1.set_xlabel("Rate (rps)", font)
 
 ax1.plot(rates, T["wrr"], marker='.' ,label= "Simulated Throughput", linestyle=":", color = "blue", mfc="none")  # Plot the chart
-ax1.plot(rates, _thrg["wrr"], marker='o' ,label= "Obtained Throughput", linestyle=":", color = "red", mfc="none")  # Plot the chart
+ax1.plot(rates, _thrg["wrr"], marker='o' ,label= "Testbed Throughput", linestyle=":", color = "red", mfc="none")  # Plot the chart
 
 
 ax2 = ax1.twinx()
 ax2.set_ylabel("P99 E2E Delay (ms)", font)
-ax2.plot(rates, L["wrr"], marker='x' ,label= "Simulated E2E Delay", linestyle="-.", color = "tab:blue", mfc="none")  # Plot the chart
-ax2.plot(rates, _lats["wrr"], marker='s' , label= "Obtained E2E Delay", linestyle="-.", color = "tab:red", mfc="none")  # Plot the chart
+ax2.plot(rates, L["wrr"], marker='x' ,label= "Simulated E2E Delay", linestyle="-.", color = "green", mfc="none")  # Plot the chart
+ax2.plot(rates, _lats["wrr"], marker='s' , label= "Testbed E2E Delay", linestyle="-.", color = "gray", mfc="none")  # Plot the chart
 ax1.set_xlim(2,20)
 
 # ax1.legend(ncol=4, fontsize=10, loc="upper left",bbox_to_anchor=(-0.12, 0.28, 1,1))

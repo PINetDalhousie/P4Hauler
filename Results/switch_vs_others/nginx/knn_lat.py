@@ -13,10 +13,10 @@ args = parser.parse_args()
 save_or_show = args.save
 
 
-list_of_policies 	=	["Server-Only", "WRR", "PRT", "LSU"]
+list_of_policies 	=	["WRR", "server_lb", "smartnic_lb"]
 
 
-RATES	= range(20,85,5)
+RATES	= range(8,21,2)
 
 RESULTS_TYPE = "p99:"
 
@@ -25,14 +25,17 @@ def read_data(r_type):
 	for p in list_of_policies: results[p] = []
 	for d in list_of_policies:
 		for r in RATES:
-			file = open("./" + d + "/" + str(r) + ".log", "r")
-			for line in file:
-				l = line.strip().split()
-				if  l[0] == r_type:
-					results[d].append(float(l[-1]))
-				if l[0] == "los:" and float(l[-1]) > 10:
-					results[d].pop()
-			file.close()
+			try:
+				file = open("./" + d + "/" + str(r) + ".log", "r")
+				for line in file:
+					l = line.strip().split()
+					if l[0] == r_type:
+						results[d].append(float(l[-1]))
+					# if l[0] == "los:" and float(l[-1]) > 10:
+					# 	results[d].pop()
+				file.close()
+			except:
+				pass
 	return results
 
 
@@ -49,27 +52,32 @@ font = {'family' : 'Times New Roman',
 'size' : 14,
 }
 
-plt.plot(RATES[0:len(results["Server-Only"])], results["Server-Only"], marker='o' ,label= "Server-Only", linestyle="solid", color = "blue", mfc="none")  # Plot the chart
-plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LUR", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
-plt.plot(RATES[0:len(results["PRT"])], results["PRT"], marker='^' ,label= "PRT", linestyle="solid", color = "green", mfc="none")  # Plot the chart
+# plt.plot(RATES[0:len(results["Server-Only"])], results["Server-Only"], marker='o' ,label= "Server-Only", linestyle="solid", color = "blue", mfc="none")  # Plot the chart
+# plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LUR", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
+plt.plot(RATES[0:len(results["server_lb"])], results["server_lb"], marker='^' ,label= "server_lb", linestyle="solid", color = "green", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["WRR"])], results["WRR"], marker='x' ,label= "WRR", linestyle="solid", color = "red", mfc="none")  # Plot the chart
-plt.yscale("log")
-plt.xlim(20,80)
-# plt.ylim(10,1000)
+
+# plt.yscale("log")
+# plt.xlim(4,20)
+# plt.ylim(100,10000)
 
 plt.tick_params(axis='both', which='major', labelsize=11)
-plt.xticks(np.arange(20, 81, step=20))
+plt.xticks(np.arange(4, 21, step=4))
 
 # plt.legend(ncol=4, fontsize=8, bbox_to_anchor=(0.05, 0.33, 1,1))
 plt.legend(ncol=2, fontsize=12, bbox_to_anchor=(0.05, 0.404, 1,1))
 
 plt.xlabel('Rate (rps)', font)
 plt.ylabel('P99 Delay (ms)', font)
+# plt.subplots_adjust(left = 0.18, right=0.97, bottom=0.22, top=0.79)
 plt.subplots_adjust(left = 0.2, right=0.96, bottom=0.17, top=0.77)
 
+
+print(RATES[0:len(results["WRR"])], results["WRR"])
 if save_or_show == 0:
-	# plt.show()
-	plt.savefig("../bm25_p99.pdf")
+	plt.show()
+	plt.savefig("/comparison_with_snic_server.pdf")
 else:
-	plt.savefig("../bm25_p99.pdf")
+	plt.show()
+	plt.savefig("/comparison_with_snic_server.pdf")
 	# plt.savefig("vgg_p99.pdf", bbox_inches='tight')

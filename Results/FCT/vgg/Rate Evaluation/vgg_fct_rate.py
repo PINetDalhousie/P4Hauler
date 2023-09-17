@@ -55,7 +55,7 @@ font = {'family' : 'Times New Roman',
 }
 
 plt.plot(RATES[0:len(results["Server-Only"])], results["Server-Only"], marker='o' ,label= "Server-Only", linestyle="solid", color = "blue", mfc="none")  # Plot the chart
-plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LSU", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
+plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LUR", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["PRT"])], results["PRT"], marker='^' ,label= "PRT", linestyle="solid", color = "green", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["WRR"])], results["WRR"], marker='x' ,label= "WRR", linestyle="solid", color = "red", mfc="none")  # Plot the chart
 # plt.yscale("log")
@@ -82,4 +82,4 @@ if save_or_show == 0:
 	plt.savefig("../../vgg_FCT_rate_evaluation.pdf")
 else:
 	# plt.savefig("vgg_thr.pdf", bbox_inches='tight')
-	plt.savefig("../vgg_FCT_rate_evaluation.pdf")
+	plt.savefig("../../vgg_FCT_rate_evaluation.pdf")

@@ -75,13 +75,13 @@ ax1.set_xlabel("Rate (rps)", font)
 
 print(T["server"])
 ax1.plot(rates[:-2], T["server"][:-2], marker='.' ,label= "Simulated Throughput", linestyle=":", color = "blue", mfc="none")  # Plot the chart
-ax1.plot(rates[:-2], _thrg["server"], marker='o' ,label= "Obtained Throughput", linestyle=":", color = "red", mfc="none")  # Plot the chart
+ax1.plot(rates[:-2], _thrg["server"], marker='o' ,label= "Testbed Throughput", linestyle=":", color = "red", mfc="none")  # Plot the chart
 
 
 ax2 = ax1.twinx()
 ax2.set_ylabel("P99 E2E Delay (ms)", font)
-ax2.plot(rates[:-2], L["server"][:-2], marker='x' ,label= "Simulated E2E Delay", linestyle="-.", color = "tab:blue", mfc="none")  # Plot the chart
-ax2.plot(rates[:-2], _lats["server"], marker='s' , label= "Obtained E2E Delay", linestyle="-.", color = "tab:red", mfc="none")  # Plot the chart
+ax2.plot(rates[:-2], L["server"][:-2], marker='x' ,label= "Simulated E2E Delay", linestyle="-.", color = "green", mfc="none")  # Plot the chart
+ax2.plot(rates[:-2], _lats["server"], marker='s' , label= "Testbed E2E Delay", linestyle="-.", color = "gray", mfc="none")  # Plot the chart
 ax1.set_xlim(2,16)
 
 # labels = ["2", "6", "10", "15", "5", "10", "20", "100", "200"]
@@ -92,7 +92,7 @@ ax1.legend(ncol=1, fontsize=10, bbox_to_anchor=(0.05, 0.6, 0.42,1))
 ax2.legend(ncol=1, fontsize=10, bbox_to_anchor=(0.05, 0.6, 0.97,1))
 plt.subplots_adjust(left = 0.1, right=0.88, bottom=0.25, top=0.7)
 
-plt.savefig("base_verify.pdf")
+# plt.savefig("base_verify.pdf")
 
 plt.show()
 

@@ -55,7 +55,7 @@ font = {'family' : 'Times New Roman',
 }
 
 plt.plot(RATES[0:len(results["Server-Only"])], results["Server-Only"], marker='o' ,label= "Server-Only", linestyle="solid", color = "blue", mfc="none")  # Plot the chart
-plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LSU", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
+plt.plot(RATES[0:len(results["LSU"])], results["LSU"], marker='s' ,label= "LUR", linestyle="solid", color = "purple", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["PRT"])], results["PRT"], marker='^' ,label= "PRT", linestyle="solid", color = "green", mfc="none")  # Plot the chart
 plt.plot(RATES[0:len(results["WRR"])], results["WRR"], marker='x' ,label= "WRR", linestyle="solid", color = "red", mfc="none")  # Plot the chart
 plt.yscale("log")
@@ -72,11 +72,14 @@ plt.xlabel('Rate (rps)', font)
 plt.ylabel('P99 Delay (ms)', font)
 plt.subplots_adjust(left = 0.2, right=0.95, bottom=0.17, top=0.77)
 print(results["LSU"])
-print((results["Server-Only"][-1] - results["LSU"][-1])/results["Server-Only"][-1])
+# print((results["Server-Only"][-1] - results["LSU"][-1])/results["Server-Only"][-1])
+print(RATES[0:len(results["Server-Only"])], results["Server-Only"])
+print(RATES[0:len(results["LSU"])], results["LSU"])
 # plt.show()
-# if save_or_show == 0:
-	# plt.show()
+if save_or_show == 0:
 	# plt.savefig("../ad_p99.pdf")
-# else:
+	plt.show()
+else:
 	# plt.savefig("../ad_p99.pdf")
+	plt.show()
 	# plt.savefig("vgg_p99.pdf", bbox_inches='tight')

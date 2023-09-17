@@ -18,7 +18,7 @@ _lats =  {"server": [], "lsu": [], "prt": [], "wrr":[]}
 _lats["server"] = 	[160.9097785949707, 176.5733647346496, 190.77907800674444, 261.7897319793701, 323.2439994812012, 444.1322875022891, 667.3306131362915, 1823.5206699371338, 5000, 8000]
 _lats["lsu"] 	=  	[975.175528526306, 	1096.211950778961, 1276.4176082611086, 1708.696398735046, 2138.092811107635, 2635.797469615936, 3028.582956790924, 3953.4584832191463, 4426.733348369598, 5958.2252407073975]
 _lats["prt"] 	= 	[186.5355014801025, 181.9323253631591, 188.25536012649536, 250.2061510086059, 335.8019995689391, 653.5560321807963, 1298.826768398285, 2070.9974622726436, 3380.1158261299142, 5283.50367307663]
-_lats["wrr"] 	=  	[830.6218767166138, 836.6247010231018, 1034.9562048912048, 838.1338906288147, 1053.207454681396, 1067.003674507141, 1096.479980945587, 1127.4709725379944, 1141.6498160362244, 2793.5623741149902]
+_lats["wrr"] 	=  	[830.6218767166138, 836.6247010231018, 840.9562048912048, 838.1338906288147, 1053.207454681396, 1067.003674507141, 1096.479980945587, 1127.4709725379944, 1141.6498160362244, 2793.5623741149902]
 
 
 _server_avg = 	[185.80069144566855, 173.93492658933005, 177.36393875545926, 213.98200690746307, 238.9820392926534, 292.66244305504694, 444.61884385063536, 1480.4869264364243, 4000, 7000]
@@ -51,7 +51,7 @@ def baseline(_rate, _servers, _accelerators):
 		if load[i] != 0:
 			index = min(int(load[i]/2)-_accelerators, len(_lats["server"])-1)
 			index = max(index, 0)
-			lats[i] = _lats["server"][index]*np.random.normal(1,0.1)
+			lats[i] = _lats["server"][index]*np.random.normal(1,0.2)
 			thrg[i] += _thrg["server"][index]*np.random.normal(1,0.1)
 	return load, lats, thrg
 
@@ -68,7 +68,7 @@ def lsu(_rate, _servers, _accelerators):
 		if load[i] != 0:
 			index = min(int(load[i]/2)-_accelerators, len(_lats["lsu"])-1)
 			index = max(index, 0)
-			lats[i] = _lats["lsu"][index]*np.random.normal(1,0.1)
+			lats[i] = _lats["lsu"][index]*np.random.normal(1,0.2)
 			thrg[i] += _thrg["lsu"][index]*np.random.normal(1,0.1)
 	return load, lats, thrg
 
@@ -86,7 +86,7 @@ def priority(_rate, _servers, _accelerators):
 		if load[i] != 0:
 			index = min(int(load[i]/2)-_accelerators, len(_lats["prt"])-1)
 			index = max(index, 0)
-			lats[i] = _lats["prt"][index]*np.random.normal(1,0.1)
+			lats[i] = _lats["prt"][index]*np.random.normal(1,0.2)
 			thrg[i] += _thrg["prt"][index]*np.random.normal(1,0.1)
 	return load, lats, thrg
 
@@ -102,7 +102,7 @@ def wrr(_rate, _servers, _accelerators):
 		if load[i] != 0:
 			index = min(int(load[i]/2)-_accelerators, len(_lats["wrr"])-1)
 			index = max(index, 0)
-			lats[i] = _lats["wrr"][index]*np.random.normal(1,0.1)
+			lats[i] = _lats["wrr"][index]*np.random.normal(1,0.2)
 			thrg[i] += _thrg["wrr"][index]*np.random.normal(1,0.1)
 	return load, lats, thrg
 
