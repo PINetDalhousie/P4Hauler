@@ -5,6 +5,7 @@ entry = table1.entry_with_ipv4_forward(dst_addr=0x0A320106 , dst_mac=0xb8599fdf0
 entry = table1.entry_with_ipv4_forward(dst_addr=0x0A320110 , dst_mac=0xb8599fdf07d1, port="188").push()
 
 entry = table1.entry_with_ipv4_forward(dst_addr=0x0A320105 , dst_mac=0xb8599fdf07fb, port="189").push()
+entry = table1.entry_with_ipv4_forward(dst_addr=0x0A32010F , dst_mac=0xb8599fdf0801, port="189").push()
 
 
 

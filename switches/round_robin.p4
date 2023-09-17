@@ -139,7 +139,7 @@ control SwitchIngress(
 
     RegisterAction<bit<32>, _, bit<32>>(queue_iterator) update_iterator = {
     void apply(inout bit<32> value, out bit<32> rv) {
-              if (value == 10) value = 0;
+              if (value == 9) value = 0;
               else value = value + 1;
               rv = value;
         }
@@ -199,7 +199,11 @@ control SwitchIngress(
                 ig_md.iterator = update_iterator.execute(0);
                 ig_md.next_hop = read_queue.execute(ig_md.iterator);
                 if ( ig_md.next_hop == 1) ig_md.available_server_meta = 0x0a320106;
-                else ig_md.available_server_meta = 0x0a320110;
+                if ( ig_md.next_hop == 2) ig_md.available_server_meta = 0x0a320105;
+                if ( ig_md.next_hop == 3) ig_md.available_server_meta = 0x0a320110;
+                if ( ig_md.next_hop == 4) ig_md.available_server_meta = 0x0a32010f;
+
+                // else ig_md.available_server_meta = 0x0a320110;
                 LB.apply();
             }
             ipv4_lpm.apply();
