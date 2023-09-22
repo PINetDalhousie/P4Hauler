@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-#rm -rf results
-#mkdir results
+rm -rf results
+mkdir results
 
-for rate in {40..40..5}
+for rate in {20..40..5}
 do
     for i in {1..10}
     do
