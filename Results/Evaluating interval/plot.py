@@ -41,7 +41,7 @@ font = {'family' : 'Times New Roman',
 'size' : 10,
 }
 
-fig, ax1 = plt.subplots(figsize=(3.5,1.7))
+fig, ax1 = plt.subplots(figsize=(3.5,1.4))
 
 ax1.set_ylabel("P99 Delay (s)", font)
 ax1.set_ylim(0, 10)
